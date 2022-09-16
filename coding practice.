@@ -1,0 +1,24 @@
+#과제 4번
+N=input("숫자를 입력하시오.")
+while N.isdecimal() is False:
+    N=input("정수를 입력하시오.")
+if N.isdecimal() is True:
+    N=int(N)
+    if N>30:
+    print("출력할 수가 많습니다.")
+    else:
+        a=1
+        while a<N+1:
+            b=1
+            while b<a+1:
+                print(b, end='')
+                b+=1
+            print()
+            a+=1
+
+#입력값이 정수면
+        30이하일땐 피라미드 출력
+        30초과이면 출력값이 많다는말 출력
+#입력값이 정수가 아니면
+        정수를 입력하라는말과함께 
+        정수입력할때까지 계속 입력반복
