@@ -1,1 +1,18 @@
-# 202003082-
+#202003082 전준혁
+#과제 1번
+a=1
+b=2
+print(a+b) 
+
+#과제 3번
+N=int(input("숫자를 입력하시오."))
+a=1
+while a<N+1:
+    b=1
+    while b<a+1:
+        print(b, end='')
+        b+=1
+    print()
+    a+=1
+if N>30:
+    print("출력할 수가 너무 많습니다")
